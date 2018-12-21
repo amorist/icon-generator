@@ -2,6 +2,11 @@
 
 > mac win icon generator
 
+![image](https://user-images.githubusercontent.com/14037268/50332636-b5a2cc80-053d-11e9-8c22-2e2f4fb899ba.png)
+
+
+![image](https://user-images.githubusercontent.com/14037268/50329524-9f434380-0532-11e9-8e71-c1fedb78ed58.png)
+
 #### Build Setup
 
 ``` bash
