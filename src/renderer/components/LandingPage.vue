@@ -111,6 +111,11 @@ export default {
           // not done yet. Run the next one
           vm.renamePNGs(position + 1)
         } else {
+          vm.$notify({
+            title: '成功',
+            message: vm.output,
+            type: 'success'
+          })
           console.log('\n ALL DONE')
         }
       })

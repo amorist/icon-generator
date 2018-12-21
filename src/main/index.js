@@ -48,6 +48,7 @@ app.on('activate', () => {
 
 ipcMain.on('open-file-dialog', function (event) {
   dialog.showOpenDialog({
+    title: '请选择文件夹',
     multiSelections: false,
     createDirectory: true,
     properties: ['openDirectory']
