@@ -23,7 +23,7 @@
                 <img class="image" :src="dialogImageUrl" alt="">
               </div>
               <div class="btn-container">
-                <el-button class="generator-btn" type="primary" icon="el-icon-download" @click="generator">生成</el-button>
+                <el-button class="generator-btn" type="primary" icon="el-icon-download" @click="generator" v-loading.fullscreen.lock="fullscreenLoading">生成</el-button>
               </div>
             </div>
           </el-col>
@@ -41,6 +41,7 @@ export default {
   name: 'landing-page',
   data () {
     return {
+      fullscreenLoading: false,
       pngSizes: [16, 24, 32, 48, 64, 128, 256],
       dialogImageUrl: '',
       input: '',
@@ -62,6 +63,7 @@ export default {
         vm.png = vm.output + 'png/'
         vm.win = vm.output + 'win/'
         vm.mac = vm.output + 'mac/'
+        vm.fullscreenLoading = true
         vm.createPNGs(0)
       })
     },
@@ -111,6 +113,7 @@ export default {
           // not done yet. Run the next one
           vm.renamePNGs(position + 1)
         } else {
+          vm.fullscreenLoading = false
           vm.$notify({
             title: '成功',
             message: vm.output,
