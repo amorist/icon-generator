@@ -116,6 +116,7 @@ export default {
             message: vm.output,
             type: 'success'
           })
+          vm.$electron.shell.showItemInFolder(vm.output)
           console.log('\n ALL DONE')
         }
       })
