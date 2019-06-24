@@ -59,7 +59,7 @@
     "jimp": "^0.6.0",
     "vue": "^2.5.16",
     "vue-electron": "^1.0.6",
-    "vue-router": "^3.0.1",
+    "vue-router": "^3.0.6",
     "vuex-electron": "^1.0.0"
   },
   "devDependencies": {
