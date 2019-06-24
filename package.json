@@ -72,7 +72,7 @@
     "babel-preset-stage-0": "^6.24.1",
     "babel-register": "^6.26.0",
     "babili-webpack-plugin": "^0.1.2",
-    "cfonts": "^2.1.2",
+    "cfonts": "^2.4.3",
     "chalk": "^2.4.1",
     "copy-webpack-plugin": "^5.0.3",
     "cross-env": "^5.1.6",
