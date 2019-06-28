@@ -23,7 +23,11 @@ function createWindow () {
     height: 563,
     width: 400,
     minWidth: 400,
-    resizable: false
+    resizable: false,
+    webPreferences: {
+      nodeIntegration: true,
+      nodeIntegrationInWorker: true
+    }
   })
   mainWindow.loadURL(winURL)
 
