@@ -57,10 +57,9 @@
   },
   "dependencies": {
     "element-ui": "^2.10.1",
-    "fs": "^0.0.1-security",
+    "fs": "0.0.2",
     "icon-gen": "^2.0.0",
     "jimp": "^0.6.4",
-    "lodash.merge": "^4.6.2",
     "vue": "^2.6.10",
     "vue-electron": "^1.0.6",
     "vue-router": "^3.0.7",
