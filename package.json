@@ -102,7 +102,7 @@
     "multispinner": "^0.2.1",
     "node-loader": "^0.6.0",
     "style-loader": "^1.0.0",
-    "url-loader": "^2.1.0",
+    "url-loader": "^4.0.0",
     "vue-html-loader": "^1.2.4",
     "vue-loader": "^15.7.1",
     "vue-style-loader": "^4.1.0",
